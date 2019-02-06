@@ -22,15 +22,17 @@ const Layout = ({ children }) => (
           <Header siteTitle={data.site.siteMetadata.title} />
           <div className="u-pad-page">
             <div className="grid">
-              <div className="row">
-                <div className="c4 med-c12 med-double-push-bottom med-text-center">
+              <div className="row flex-reverse">
+                <div className="c6 s1 med-c12 med-s0 med-double-push-bottom">
+                  {children}
+                </div>
+                <div className="c4 med-c12 med-text-center">
                   <img
                     src={hand}
                     alt="Chattorey logo"
                     className={layoutStyles.hand}
                   />
                 </div>
-                <div className="c6 s1 med-c12 med-s0">{children}</div>
               </div>
             </div>
           </div>

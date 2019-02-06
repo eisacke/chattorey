@@ -20,8 +20,12 @@ const Footer = () => (
         <div className="c4 med-c12 med-push-bottom">
           <h3 className="heading-small half-push-bottom">Contact us</h3>
           <ul className="push-bottom">
-            <li>info@chattorey.com</li>
-            <li>01474 322123</li>
+            <li>
+              <a href="mailto:info@chattorey.com">info@chattorey.com</a>
+            </li>
+            <li>
+              <a href="tel:01474322123">01474 322123</a>
+            </li>
           </ul>
 
           <p className="no-push">

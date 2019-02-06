@@ -7,7 +7,7 @@ const Menu = () => (
   <Layout>
     <SEO title="Menu" />
     <div>
-      <h1 className="heading-medium push-bottom">Menu</h1>
+      <h1 className="heading-medium push-bottom med-text-center">Menu</h1>
       <p className="text-medium">
         Growing up in a household of chattorey (foodies) has made us experience
         indian food at its best. We’d had enough of the same old balti houses
