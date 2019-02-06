@@ -1,0 +1,55 @@
+@import '../../styles/base/variables'
+@import '../../styles/base/mixins'
+
+.container 
+  padding: 1.5 * $gtr 0
+
+.inner
+  display: flex
+  justify-content: space-between
+
+.show
+  top: 0
+
+.logo
+  font-size: $font-size-3
+  text-decoration: none
+
+.navLinksWrapper
+  display flex
+  align-items center
+
+.navLinks
+  display flex
+  justify-content: space-between;
+  width: 100%;
+
+  +below($lrg)
+    flex-wrap: wrap
+    justify-content: center
+
+.navLink
+  display: flex
+  align-items: stretch
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase
+  letter-spacing: 2px
+  font-size: 13px
+
+  +above($lrg)
+    &:first-of-type
+      a
+        padding-left: 0
+
+    &:last-of-type
+      a
+        padding-right: 0
+
+  a
+    text-decoration: none
+    display: flex
+    align-items: center
+    padding: .5 * $gtr
+
+.navLinkActive
+  color: $color-secondary

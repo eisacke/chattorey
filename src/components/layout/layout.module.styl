@@ -1,0 +1,16 @@
+@import '../../styles/base/variables'
+@import '../../styles/base/mixins'
+
+// start:sticky footer styles
+.body
+  height: 100%
+  display: flex
+  flex-direction: column
+
+.content
+  flex: 1 0 auto
+// end:sticky footer styles
+
+.hand
+  +below($med)
+    width: 100px

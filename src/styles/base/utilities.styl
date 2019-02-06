@@ -1,0 +1,91 @@
+// Backgrounds
+
+.u-white-background
+  background-color: $color-white !important
+
+.u-grey-background // not used
+  background-color: $color-grey-light !important
+
+.u-dark-grey-background // not used
+  background-color: $color-grey-dark !important
+
+.u-light-background // not used
+  background-color: $color-background-light!important
+
+.u-primary-background // not used
+  background-color: $color-background-primary !important
+
+.u-secondary-background
+  background-color: $color-background-secondary !important
+
+.u-secondary-background-light // not used
+  background-color: $color-background-secondary-light !important
+
+.u-secondary-background-lighter // not used
+  background-color: $color-background-secondary-lighter !important
+
+.u-tertiary-background-light // not used
+  background-color: $color-background-tertiary-light
+
+.u-tertiary-background-lighter // not used
+  background-color: $color-background-tertiary-new
+
+// Utility classes
+
+.u-content-center
+  display flex
+  justify-content center
+  align-items center
+
+// Section padding
+
+.u-pad-section
+  padding-top 5 * $gtr
+  padding-bottom 5 * $gtr
+
+  +below($sml)
+    padding-top 2 * $gtr
+    padding-bottom 2 * $gtr
+
+.u-pad-page-top
+  padding-top 70px
+
+.u-pad-page-bottom
+  padding-bottom 200px
+
+.u-pad-page
+  padding-top: 5 * $gtr
+  padding-bottom: 5 * $gtr
+  
+  +below($med)
+    padding-top 3 * $gtr
+    padding-bottom 3 * $gtr
+
+// Borders
+
+// Section borders - to be used on class="grid" elements
+
+[class*="u-border-"]
+  position relative
+  &:after, &:before
+    display block
+    height 1px
+    background-color $color-background-secondary
+    position absolute
+    left $gtr
+    right $gtr
+
+.u-border-bottom
+  &:after
+    content ''
+    bottom 0
+
+.u-border-top
+  &:before
+    content ''
+    top 0
+
+// Box shadow
+
+.u-box-shadow
+  box-shadow $box-shadow-large

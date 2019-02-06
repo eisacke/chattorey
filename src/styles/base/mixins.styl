@@ -1,0 +1,13 @@
+// Applies rules above the given size, use as:
+// +above(100px)
+//    display: none
+above($arg)
+  @media only screen and (min-width: $arg+1px)
+    {block}
+
+// Applies rules below the given size, use as:
+// +below(med)
+//    font-size: $font-size-4
+below($arg)
+  @media only screen and (max-width: $arg)
+    {block} // @stylint ignore

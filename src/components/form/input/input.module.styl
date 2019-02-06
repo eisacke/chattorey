@@ -1,0 +1,39 @@
+@import '../../../styles/base/variables'
+@import '../../../styles/base/mixins'
+
+.wrapper
+  margin-bottom: $gtr
+
+.input
+  width: 100%
+  background-color: #fffbf4
+  padding: .75 * $gtr
+  outline: 0
+  color: $color-black
+  font-size: $font-size-5
+
+  &:focus
+    border: $input-border-dark
+
+  +below($sml)
+    padding: .75 * $gtr
+
+.error
+  border: 1px solid $color-secondary
+  // padding-top: $gtr - 1
+  // padding-bottom: $gtr - 1
+
+.label
+  font-size: $font-size-5
+  font-weight: $font-weight-medium
+  margin-bottom: .5 * $gtr
+  font-style: italic
+
+.hint
+  font-size: $font-size-6
+  color: $color-grey
+
+.errorMessage
+  font-size: 12px
+  color: $color-secondary
+  margin-top: .25 * $gtr
