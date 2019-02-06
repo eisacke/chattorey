@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
           <Header siteTitle={data.site.siteMetadata.title} />
           <div className="u-pad-page">
             <div className="grid">
-              <div className="row med-text-center">
-                <div className="c4 med-c12 med-double-push-bottom">
+              <div className="row">
+                <div className="c4 med-c12 med-double-push-bottom med-text-center">
                   <img
                     src={hand}
                     alt="Chattorey logo"

@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 const Careers = () => (
   <Layout>
     <SEO title="Careers" />
-    <h1 className="heading-medium push-bottom">Careers</h1>
+    <h1 className="heading-medium push-bottom med-text-center">Careers</h1>
     <p className="text-medium">
       Our team is the backbone of what we do, so it's very important that we
       find the right individuals to join us. If you would like to be part of our

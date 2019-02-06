@@ -56,8 +56,10 @@ class Bookings extends Component {
       <Layout>
         <SEO title="Bookings" />
         <div>
-          <h1 className="heading-medium push-bottom">Bookings</h1>
-          <p className="text-medium push-bottom">
+          <h1 className="heading-medium push-bottom med-text-center">
+            Bookings
+          </h1>
+          <p className="text-medium double-push-bottom">
             Please call <a href="tel:01474322123">01474 322123</a> to book or
             use the booking form below.
           </p>

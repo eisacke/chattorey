@@ -35,9 +35,7 @@ const Footer = () => (
             <li>Tuesday - Friday: 5pm - 10pm</li>
             <li>Saturday - Sunday: 12.30pm - 10pm</li>
           </ul>
-          <p className="no-push">
-            <em>We are open on bank holidays.</em>
-          </p>
+          <p className="no-push">We are open on bank holidays.</p>
         </div>
       </div>
     </div>

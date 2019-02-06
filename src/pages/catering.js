@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 const Catering = () => (
   <Layout>
     <SEO title="Catering" />
-    <h1 className="heading-medium push-bottom">Catering</h1>
+    <h1 className="heading-medium push-bottom med-text-center">Catering</h1>
     <p className="text-medium">
       Chattorey provide a bespoke service for each client, creating individual
       menus to suit your exact taste and needs. The authentic dishes we serve

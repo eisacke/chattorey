@@ -7,7 +7,7 @@ const Drinks = () => (
   <Layout>
     <SEO title="Drinks" />
     <div>
-      <h1 className="heading-medium push-bottom">Drinks</h1>
+      <h1 className="heading-medium push-bottom med-text-center">Drinks</h1>
       <p className="text-medium push-bottom">
         We’ve got a range of fabulous drinks for all occasions. Find the perfect
         accompaniment to your curry, you can view our drinks menu below.
