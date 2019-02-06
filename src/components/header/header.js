@@ -30,6 +30,11 @@ const links = [
 ];
 
 class Header extends Component {
+  scrollToFooter = () => {
+    const footer = document.getElementById("footer");
+    footer.scrollIntoView();
+  };
+
   render() {
     return (
       <div className={headerStyles.container}>
@@ -52,6 +57,9 @@ class Header extends Component {
                     </Link>
                   </li>
                 ))}
+                <li className={headerStyles.navLink + " hide med-show"}>
+                  <button onClick={this.scrollToFooter}>Contact</button>
+                </li>
               </ul>
             </div>
           </div>

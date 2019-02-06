@@ -31,10 +31,6 @@
 .navLink
   display: flex
   align-items: stretch
-  font-family: 'Nunito Sans', sans-serif;
-  text-transform: uppercase
-  letter-spacing: 2px
-  font-size: 13px
 
   +above($lrg)
     &:first-of-type
@@ -45,11 +41,16 @@
       a
         padding-right: 0
 
-  a
+  a, button
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px
+    font-size: 13px
+    text-transform: uppercase
     text-decoration: none
     display: flex
     align-items: center
     padding: .5 * $gtr
+    cursor pointer
 
 .navLinkActive
   color: $color-secondary

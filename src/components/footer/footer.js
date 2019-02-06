@@ -2,7 +2,7 @@ import React from "react";
 import footerStyles from "./footer.module.styl";
 
 const Footer = () => (
-  <footer className={footerStyles.container}>
+  <footer className={footerStyles.container} id="footer">
     <div className="grid">
       <div className="row">
         <div className="c4 med-c12 med-push-bottom">
