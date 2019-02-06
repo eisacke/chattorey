@@ -10,7 +10,7 @@ const Drinks = () => (
       <h1 className="heading-medium push-bottom med-text-center">Drinks</h1>
       <p className="text-medium push-bottom">
         We’ve got a range of fabulous drinks for all occasions. Find the perfect
-        accompaniment to your curry, you can view our drinks menu below.
+        accompaniment to your curry - view our drinks menu below.
       </p>
       <a href="/drinks.pdf" target="blank" className="text-medium">
         Drinks menu

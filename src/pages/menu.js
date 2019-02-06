@@ -12,7 +12,7 @@ const Menu = () => (
         Growing up in a household of chattorey (foodies) has made us experience
         indian food at its best. We’d had enough of the same old balti houses
         (which actually translates to bucket houses) all serving sloppy red
-        curry’s that all taste the same.
+        currys that all taste the same.
       </p>
 
       <p className="text-medium push-bottom">
