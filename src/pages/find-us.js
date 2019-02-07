@@ -14,6 +14,7 @@ const FindUs = () => (
         <a
           href="http://maps.google.com/?q=65 Wrotham Road, Gravesent, Kent, DA11 0QB"
           target="_blank"
+          rel="noopener noreferrer"
         >
           65 Wrotham Road,
           <br />
@@ -26,7 +27,7 @@ const FindUs = () => (
       </p>
       <h2 className="heading-medium push-bottom med-text-center">Parking</h2>
       <p className="text-medium double-push-bottom">
-        There is parking very close to the restaurant. Parrock St Car Park (postcode DA12 1ER) is the nearest car park and is roughly a 5 minute walk to the restaurant.
+        There is parking very close to the restaurant. <a href="https://www.gravesham.gov.uk/home/parking-and-roads/car-parks/overview/parrock-street-car-park" target="_blank" rel="noopener noreferrer">Parrock St Car Park</a> (postcode DA12 1ER) is the nearest car park and is roughly a 5 minute walk to the restaurant.
       </p>
       <h2 className="heading-medium push-bottom med-text-center">By train</h2>
       <p className="text-medium double-push-bottom">
