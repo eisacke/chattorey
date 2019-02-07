@@ -12,8 +12,8 @@ const links = [
     text: "Menu"
   },
   {
-    url: "/drinks",
-    text: "Drinks"
+    url: "/find-us",
+    text: "Find us"
   },
   {
     url: "/bookings",

@@ -33,6 +33,12 @@ const Menu = () => (
           </a>{" "}
           &rarr;
         </li>
+        <li>
+          <a href="/drinks.pdf" target="blank" className="text-medium">
+            Drinks menu
+          </a>
+          &rarr;
+        </li>
       </ul>
     </div>
   </Layout>
