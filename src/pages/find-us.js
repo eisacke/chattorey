@@ -26,11 +26,11 @@ const FindUs = () => (
       </p>
       <h2 className="heading-medium push-bottom med-text-center">Parking</h2>
       <p className="text-medium double-push-bottom">
-        There is Parking is very close to the restaurant. Parrock St Car Park (Postcode DA12 1ER) is the nearest car park and is roughly 5 minute walk to the restaurant.
+        There is parking very close to the restaurant. Parrock St Car Park (postcode DA12 1ER) is the nearest car park and is roughly a 5 minute walk to the restaurant.
       </p>
       <h2 className="heading-medium push-bottom med-text-center">By train</h2>
       <p className="text-medium double-push-bottom">
-        We are also a short walk (roughly 7 min) from Gravesend Rail Station (Post code DA11 0HP). Alternatively there is parking across the road from us in front of Wrotham Court on Wrotham Road, but please bear in mind spaces are limited.
+        We are also a short walk (roughly 7 min) from Gravesend Rail Station (postcode DA11 0HP). Alternatively, there is parking across the road from us in front of Wrotham Court on Wrotham Road, but please bear in mind that spaces are limited.
       </p>
       <img src={map} alt="Map of Gravesend" />
     </div>
