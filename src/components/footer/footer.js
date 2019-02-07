@@ -9,13 +9,13 @@ const Footer = () => (
           <h3 className="heading-small half-push-bottom">Find us</h3>
           <p className="no-push">
             <a
-              href="http://maps.google.com/?q=65 Wrotham Road, Gravesent, Kent, DA11 0QB"
+              href="http://maps.google.com/?q=65 Wrotham Road, Gravesend, Kent, DA11 0QB"
               target="_blank"
               rel="noopener noreferrer"
             >
               65 Wrotham Road,
               <br />
-              Gravesent,
+              Gravesend,
               <br />
               Kent,
               <br />

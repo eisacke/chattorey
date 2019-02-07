@@ -12,13 +12,13 @@ const FindUs = () => (
       <h1 className="heading-medium push-bottom med-text-center">Find us</h1>
       <p className="text-medium double-push-bottom">
         <a
-          href="http://maps.google.com/?q=65 Wrotham Road, Gravesent, Kent, DA11 0QB"
+          href="http://maps.google.com/?q=65 Wrotham Road, Gravesend, Kent, DA11 0QB"
           target="_blank"
           rel="noopener noreferrer"
         >
           65 Wrotham Road,
           <br />
-          Gravesent,
+          Gravesend,
           <br />
           Kent,
           <br />
