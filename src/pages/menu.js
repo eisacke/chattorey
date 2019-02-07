@@ -27,7 +27,7 @@ const Menu = () => (
           </a>{" "}
           &rarr;
         </li>
-        <li>
+        <li className="half-push-bottom">
           <a href="/desserts.pdf" target="blank" className="text-medium">
             Desserts menu
           </a>{" "}

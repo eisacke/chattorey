@@ -8,13 +8,19 @@ const Footer = () => (
         <div className="c4 med-c12 med-push-bottom">
           <h3 className="heading-small half-push-bottom">Find us</h3>
           <p className="no-push">
-            65 Wrotham Road,
-            <br />
-            Gravesent,
-            <br />
-            Kent,
-            <br />
-            DA11 0QB
+            <a
+              href="http://maps.google.com/?q=65 Wrotham Road, Gravesent, Kent, DA11 0QB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              65 Wrotham Road,
+              <br />
+              Gravesent,
+              <br />
+              Kent,
+              <br />
+              DA11 0QB
+            </a>
           </p>
         </div>
         <div className="c4 med-c12 med-push-bottom">
