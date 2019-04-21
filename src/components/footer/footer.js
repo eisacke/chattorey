@@ -45,7 +45,13 @@ const Footer = () => (
             <li>Tuesday - Friday: 5pm - 10pm</li>
             <li>Saturday - Sunday: 12.30pm - 10pm</li>
           </ul>
-          <p className="no-push">We are open on bank holidays.</p>
+
+<ul>
+            <li>Easter Sunday 21st April: 12.30pm - 10pm</li>
+            <li>Monday 22nd April: Closed</li>
+            <li>Tuesday 23rd April: 5.30pm - 10pm</li>
+          </ul>
+
         </div>
       </div>
     </div>
