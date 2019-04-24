@@ -40,7 +40,7 @@ const Footer = () => (
         </div>
         <div className="c4 med-c12">
           <h3 className="heading-small half-push-bottom">Opening times</h3>
-          <ul className="push-bottom">
+          <ul>
             <li>Monday: Closed</li>
             <li>Tuesday - Friday: 5pm - 10pm</li>
             <li>Saturday - Sunday: 12.30pm - 10pm</li>
