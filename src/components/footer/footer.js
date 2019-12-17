@@ -45,7 +45,6 @@ const Footer = () => (
             <li>Tuesday - Friday: 5pm - 10pm</li>
             <li>Saturday - Sunday: 12.30pm - 10pm</li>
           </ul>
-          <p className="no-push">We are open on bank holidays.</p>
         </div>
         <div className="c3 med-c12">
           <h3 className="heading-small half-push-bottom">Christmas hours</h3>
