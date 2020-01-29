@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className={footerStyles.container} id="footer">
     <div className="grid">
       <div className="row">
-        <div className="c2 med-c12 med-push-bottom">
+        <div className="c4 med-c12 med-push-bottom">
           <h3 className="heading-small half-push-bottom">Find us</h3>
           <p className="no-push">
             <a
@@ -23,7 +23,7 @@ const Footer = () => (
             </a>
           </p>
         </div>
-        <div className="c3 med-c12 med-push-bottom">
+        <div className="c4 med-c12 med-push-bottom">
           <h3 className="heading-small half-push-bottom">Contact us</h3>
           <ul className="push-bottom">
             <li>
@@ -44,14 +44,6 @@ const Footer = () => (
             <li>Monday: Closed</li>
             <li>Tuesday - Friday: 5pm - 10pm</li>
             <li>Saturday - Sunday: 12.30pm - 10pm</li>
-          </ul>
-        </div>
-        <div className="c3 med-c12">
-          <h3 className="heading-small half-push-bottom">Christmas hours</h3>
-          <ul className="push-bottom">
-            <li>23rd - 24th Dec: 5pm - 10pm</li>
-            <li>25th - 26th Dec: Closed</li>
-            <li>27th Dec: 5pm - 10pm</li>
           </ul>
         </div>
       </div>
