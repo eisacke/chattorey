@@ -63,6 +63,12 @@ class Header extends Component {
               </ul>
             </div>
           </div>
+          <div>
+            Temporary Closure - Unfortunately due to the COVID-19 pandemic and
+            in accordance with the latest social distancing guidelines we have
+            had to close until further notice. We look forward to seeing you
+            when we reopen.
+          </div>
         </div>
       </div>
     );
