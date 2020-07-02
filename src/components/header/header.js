@@ -5,28 +5,28 @@ import { Link } from "gatsby";
 const links = [
   {
     url: "/",
-    text: "Home"
+    text: "Home",
   },
   {
     url: "/menu",
-    text: "Menu"
+    text: "Menu",
   },
   {
     url: "/find-us",
-    text: "Find us"
+    text: "Find us",
   },
   {
     url: "/bookings",
-    text: "Bookings"
+    text: "Bookings",
   },
   {
     url: "/catering",
-    text: "Catering"
+    text: "Catering",
   },
   {
     url: "/careers",
-    text: "Careers"
-  }
+    text: "Careers",
+  },
 ];
 
 class Header extends Component {
@@ -42,11 +42,11 @@ class Header extends Component {
           <div className="grid">
             <div className="row">
               <div className="c12">
-                <p className={headerStyles.bannerTitle}>Temporary Closure</p>
-                Unfortunately due to the COVID-19 pandemic and in accordance
-                with the latest social distancing guidelines we have had to
-                close until further notice. We look forward to seeing you when
-                we reopen.
+                <p className={headerStyles.bannerTitle}>Reopening</p>
+                We are delighted to announce that we will be open from 4th July.
+                <br />
+                Please book via the website or call us. We look forward to
+                welcoming you back.
               </div>
             </div>
           </div>
