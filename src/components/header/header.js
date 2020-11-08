@@ -44,13 +44,15 @@ const Header = ({ siteTitle }) => {
               <p className={headerStyles.bannerTitle}>
                 You can still enjoy our food at home!
               </p>
-              Due to the current COVID-19 restrictions, we are limiting our
-              opening hours to Friday, Saturday and Sunday. We are offering a
-              takeaway service only.
-              <br />
-              <br />
-              Please call us on <a href="tel:01474322123">01474 322123</a> to
-              order.
+              <p>
+                Due to the current COVID-19 restrictions, we are limiting our
+                opening hours to Friday, Saturday and Sunday. We are offering a
+                takeaway service only.
+              </p>
+              <p>
+                Please call us on <a href="tel:01474322123">01474 322123</a> to
+                order.
+              </p>
             </div>
           </div>
         </div>
