@@ -42,11 +42,16 @@ class Header extends Component {
           <div className="grid">
             <div className="row">
               <div className="c12">
-                <p className={headerStyles.bannerTitle}>Reopening</p>
-                We are delighted to announce that we will be open from 4th July.
+                <p className={headerStyles.bannerTitle}>
+                  You can still enjoy our food at home!
+                </p>
+                Due to the current COVID-19 restrictions, we are limiting our
+                opening hours to Friday, Saturday and Sunday. We are offering a
+                takeaway service only.
                 <br />
-                Please book via the website or call us. We look forward to
-                welcoming you back.
+                <br />
+                Please call us on <a href="tel:01474322123">01474 322123</a> to
+                order.
               </div>
             </div>
           </div>
