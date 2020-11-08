@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import headerStyles from "./header.module.styl";
 import { Link } from "gatsby";
 
@@ -29,64 +29,62 @@ const links = [
   },
 ];
 
-class Header extends Component {
-  scrollToFooter = () => {
+const Header = ({ siteTitle }) => {
+  const scrollToFooter = () => {
     const footer = document.getElementById("footer");
     footer.scrollIntoView();
   };
 
-  render() {
-    return (
-      <>
-        <div className={headerStyles.banner}>
-          <div className="grid">
-            <div className="row">
-              <div className="c12">
-                <p className={headerStyles.bannerTitle}>
-                  You can still enjoy our food at home!
-                </p>
-                Due to the current COVID-19 restrictions, we are limiting our
-                opening hours to Friday, Saturday and Sunday. We are offering a
-                takeaway service only.
-                <br />
-                <br />
-                Please call us on <a href="tel:01474322123">01474 322123</a> to
-                order.
-              </div>
+  return (
+    <>
+      <div className={headerStyles.banner}>
+        <div className="grid">
+          <div className="row">
+            <div className="c12">
+              <p className={headerStyles.bannerTitle}>
+                You can still enjoy our food at home!
+              </p>
+              Due to the current COVID-19 restrictions, we are limiting our
+              opening hours to Friday, Saturday and Sunday. We are offering a
+              takeaway service only.
+              <br />
+              <br />
+              Please call us on <a href="tel:01474322123">01474 322123</a> to
+              order.
             </div>
           </div>
         </div>
-        <div className={headerStyles.container}>
-          <div className="grid">
-            <div className="row">
-              <div className="c5 lrg-c12 lrg-text-center lrg-half-push-bottom">
-                <Link to="/" className={headerStyles.logo}>
-                  <h1 className="heading">{this.props.siteTitle}</h1>
-                </Link>
-              </div>
-              <div className={headerStyles.navLinksWrapper + " c7 lrg-c12"}>
-                <ul className={headerStyles.navLinks}>
-                  {links.map((link, index) => (
-                    <li key={index} className={headerStyles.navLink}>
-                      <Link
-                        to={link.url}
-                        activeClassName={headerStyles.navLinkActive}
-                      >
-                        {link.text}
-                      </Link>
-                    </li>
-                  ))}
-                  <li className={headerStyles.navLink + " hide med-show"}>
-                    <button onClick={this.scrollToFooter}>Contact</button>
+      </div>
+      <div className={headerStyles.container}>
+        <div className="grid">
+          <div className="row">
+            <div className="c5 lrg-c12 lrg-text-center lrg-half-push-bottom">
+              <Link to="/" className={headerStyles.logo}>
+                <h1 className="heading">{siteTitle}</h1>
+              </Link>
+            </div>
+            <div className={headerStyles.navLinksWrapper + " c7 lrg-c12"}>
+              <ul className={headerStyles.navLinks}>
+                {links.map((link, index) => (
+                  <li key={index} className={headerStyles.navLink}>
+                    <Link
+                      to={link.url}
+                      activeClassName={headerStyles.navLinkActive}
+                    >
+                      {link.text}
+                    </Link>
                   </li>
-                </ul>
-              </div>
+                ))}
+                <li className={headerStyles.navLink + " hide med-show"}>
+                  <button onClick={scrollToFooter}>Contact</button>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-      </>
-    );
-  }
-}
+      </div>
+    </>
+  );
+};
 
 export default Header;
